@@ -15,12 +15,12 @@ Este proyecto se basa en implementar un circuito decodificador que permita media
 # Diagramas de bloques
 [comment]: <> (de cada subsistema y su funcionamiento fundamental, según descritos en la sección 5.)
 # Diagramas de estado
-[comment]: <> (de todas las FSM diseñadas (si existen), según descritos en la sección 5.)
+[comment]: <> (de todas las FSM diseñadas, si existen, según descritos en la sección 5)
 # Ejemplo y análisis de una simulación funcional
 [comment]: <> (del sistema completo, desde el estímulo de entrada hasta el manejo de los 7 segmentos.)
 # Análisis de consumo de recursos en la FPGA 
-[comment]: <> ((LUTs, FFs, etc.) y del consumo de potencia que reporta la herramienta Vivado.)
+[comment]: <> (LUTs, FFs, etc. y del consumo de potencia que reporta la herramienta Vivado.)
 # Reporte de velocidades máximas de reloj 
-[comment]: <> (posibles en el diseño (mínima frecuencia de reloj para este diseño: 50 MHz).)
+[comment]: <> (posibles en el diseño mínima frecuencia de reloj para este diseño: 50 MHz.)
 # Análisis de principales problemas 
 [comment]: <> (hallados durante el trabajo y de las soluciones aplicadas)

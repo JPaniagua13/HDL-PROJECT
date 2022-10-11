@@ -7,10 +7,10 @@ Este proyecto se basa en implementar un circuito decodificador que permita media
 Este subsistema es aquel que a su entrada recibe un número de cuatro bits en formato Gray para luego ser transformado en su representación binaria. Este proceso requiere de la asignación de cuatro entradas y cuatro salidas. Las entradas corresponden a los computadores y las salidas se visualizan mediante la herramienta de simulación. Al utilizar la herramienta de simulación, la taza de refrescamiento debe estar asignada a 500 ms.
 
 ## Subsistema 2
-Este subsistema es el encargado de recibir el código binario debidamente transformado del subsistema 1, el cual indica por medio de los LEDs de la FPGA a una tasa de refresco de 500 ms, que ese display.
+Este subsistema que corresponde a la continuación del subsistema anterior, consiste en ahora sí desplegar las salidas pero utilizando los LEDs de la placa FPGA.
 
 ## Subsistema 3
-En este subsistema se crean cuatro partes que componen a dicho subsistema, además de tener en cuenta al clock del subsistema 2. Estas partes se dividen en una etapa "colocar nombre de etapa de refresh_counter" que está asociada al clock antes mencionado y esta se encarga de tener un contador de refresco que permitirá que dos etapas funcionen al mismo tiempo, las cuales serán: la etapa "colocar nombre de etapa bcd_control" que es aquella que determina cuál dígito se mostrará en el display y la etapa "colocar nombre de etapa del anode_control" que define en cuál ánodo será encendido. La etapa "colocar nombre de etapa de bcd_to_cathodes" sería la que se encarga de recibir el dígito que ...
+Este último subsistema está compuesto por cuatro partes. Requiere también hacer uso del "clock" del subsistema dos. Estas partes se dividen en una etapa "colocar nombre de etapa de refresh_counter" que está asociada al clock y esta se encarga de tener un contador de refresco que permita que las dos etapas funcionen simultáneamente. Estas dos etapas corresponden a: la etapa "colocar nombre de etapa bcd_control" que es aquella que determina cuál dígito se mostrará en el display y la etapa "colocar nombre de etapa del anode_control" que define cuál ánodo será encendido. La etapa "colocar nombre de etapa de bcd_to_cathodes" sería la que se encarga de recibir el dígito que enciende alguno de los siete segmentos.
 
 # Diagramas de bloques
 [comment]: <> (de cada subsistema y su funcionamiento fundamental, según descritos en la sección 5.)

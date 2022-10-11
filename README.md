@@ -4,7 +4,7 @@
 # Descripción general
 Este proyecto se basa en implementar un circuito decodificador que permita mediante el ingreso de un número Gray el despliegue de su representación decimal en un display de siete segmentos. Para esto se utiliza una placa Basys 3/FPGA en donde se hace uso de los conmutadores, los LEDs y los displays siete segmentos.
 ## Subsistema 1
-Este subsistema es aquel que a su entrada tendrá un número de cuatro bits en forma de Gray para luego ser transformado a su forma binaria a través de un código programado. Es decir, se encarga de hacer una lectura del código de Gray que se verá en la entrada para luego pasarlo a binario y, que este a su vez llegue al subsistema 2. Además se encargará de contener una tasa de refresco de 500 ms.
+Este subsistema es aquel que a su entrada recibe un número de cuatro bits en formato Gray para luego ser transformado en su representación binaria. Este proceso requiere de la asignación de cuatro entradas y cuatro salidas. Las entradas corresponden a los computadores y las salidas se visualizan mediante la herramienta de simulación. Al utilizar la herramienta de simulación, la taza de refrescamiento debe estar asignada a 500 ms.
 
 ## Subsistema 2
 Este subsistema es el encargado de recibir el código binario debidamente transformado del subsistema 1, el cual indica por medio de los LEDs de la FPGA a una tasa de refresco de 500 ms, que ese display.

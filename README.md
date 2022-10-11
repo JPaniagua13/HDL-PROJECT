@@ -13,6 +13,8 @@ Este subsistema que corresponde a la continuación del subsistema anterior, cons
 Este último subsistema está compuesto por cuatro partes. Requiere también hacer uso del "clock" del subsistema dos. Estas partes se dividen en una etapa "refresh counter" que está asociada al clock y, a su vez se encarga de tener un contador de refresco que permita que las dos etapas funcionen simultáneamente. Estas dos etapas corresponden a: la etapa "multiplexor" que es aquella que determina cuál dígito se mostrará en el display y la etapa "ánodo" que define cuál ánodo será encendido. La etapa "cátodos" sería la que se encarga de recibir el dígito que enciende alguno de los siete segmentos.
 
 # Diagramas de bloques
+![Implementación lógica del subsistema 1](https://user-images.githubusercontent.com/111257726/195086713-428fa68d-39e8-4790-b95a-875f62756907.jpeg)
+
 [comment]: <> (de cada subsistema y su funcionamiento fundamental, según descritos en la sección 5.)
 # Diagramas de estado
 [comment]: <> (de todas las FSM diseñadas, si existen, según descritos en la sección 5)

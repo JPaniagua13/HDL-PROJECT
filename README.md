@@ -2,9 +2,8 @@
 <h1 align="center"> Circuito decodificador de Gray </h1>
 
 ## Índice
-* [Descripci ón general] (# Descripción general)
-* [Subsistema 1] (## Subsistema 1)
-* []()
+*[Descripción general](#Descripción general)
+
 # Descripción general
 Este proyecto se basa en implementar un circuito decodificador que permita mediante el ingreso de un número Gray el despliegue de su representación decimal en un display de siete segmentos. Para esto se utiliza una placa Basys 3/FPGA en donde se hace uso de los conmutadores, los LEDs y los displays siete segmentos.
 ## Subsistema 1

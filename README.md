@@ -2,7 +2,7 @@
 <h1 align="center"> Circuito decodificador de Gray </h1>
 
 # Descripción general
-Este proyecto se basa en implementar un circuito decodificador que permita mediante el ingreso de un número Gray el despliegue de su representación decimal en un display de siete segmentos. Para esto, se utiliza una placa Basys 3/FPGA en donde se hace uso de los conmutadores, como los displays y los LEDs.
+Este proyecto se basa en implementar un circuito decodificador que permita mediante el ingreso de un número Gray el despliegue de su representación decimal en un display de siete segmentos. Para esto se utiliza una placa Basys 3/FPGA en donde se hace uso de los conmutadores, los LEDs y los displays siete segmentos.
 ## Subsistema 1
 Este subsistema es aquel que a su entrada tendrá un número de cuatro bits en forma de Gray para luego ser transformado a su forma binaria a través de un código programado. Es decir, se encarga de hacer una lectura del código de Gray que se verá en la entrada para luego pasarlo a binario y, que este a su vez llegue al subsistema 2. Además se encargará de contener una tasa de refresco de 500 ms.
 
@@ -26,4 +26,4 @@ En este subsistema se crean cuatro partes que componen a dicho subsistema, adem�
 [comment]: <> (hallados durante el trabajo y de las soluciones aplicadas)
 A la hora de empezar el proyecto un problema que surgió fue la verificación de usuario a la hora de instalar Vivado. Un requerimiento para instalar Vivado es la creación de un usuario y una consecuente verificación de datos personales. En esta esta etapa ocurrió que al llenar los datos desplegaba un mensaje de error. Se intentó utilizando la cuenta institucional del Instituto Tecnológico de Costa Rica pero el problema persistió. Finalmente, se envió un correo a la dirección de soporte de Xilinx. Dentro del plazo de dos horas, el correo fue contestado explicando que la cuenta no se encontraba más bloqueada. Sin embargo, los datos del perfil no debían cambiar ya que de lo contrario resultaría en la reaparición del mismo problema.   
 Cabe destacar que el software Vivado corre únicamente en sistemas Linux/Windows. Está información habría sido de gran utilidad ya que se intentó correr en una máquina virtual Linux. No habría sido un problema si no fuera a causa de la gran cantidad de memoria que requiere. Es decir la computadora en la que se quiere instalar debe tener como mínimo 160 GB.  
-
+Para los miembros cuyos problemas de instalación persistieron se tomó la decisión de utilizar VMWare para inicialmente realizar las pruebas del programa. El hacer uso de esto otro problema que ocurrió fue que la interfaz de Vivado se trababa a cortos plazos de tiempo lo que resultaba en estar reiniciando el computador una y otra vez.

@@ -10,7 +10,7 @@ Este subsistema es aquel que a su entrada recibe un número de cuatro bits en fo
 Este subsistema que corresponde a la continuación del subsistema anterior, consiste en ahora sí desplegar las salidas pero utilizando los LEDs de la placa FPGA.
 
 ## Subsistema 3
-Este último subsistema está compuesto por cuatro partes. Requiere también hacer uso del "clock" del subsistema dos. Estas partes se dividen en una etapa "colocar nombre de etapa de refresh_counter" que está asociada al clock y esta se encarga de tener un contador de refresco que permita que las dos etapas funcionen simultáneamente. Estas dos etapas corresponden a: la etapa "colocar nombre de etapa bcd_control" que es aquella que determina cuál dígito se mostrará en el display y la etapa "colocar nombre de etapa del anode_control" que define cuál ánodo será encendido. La etapa "colocar nombre de etapa de bcd_to_cathodes" sería la que se encarga de recibir el dígito que enciende alguno de los siete segmentos.
+Este último subsistema está compuesto por cuatro partes. Requiere también hacer uso del "clock" del subsistema dos. Estas partes se dividen en una etapa "refresh counter" que está asociada al clock y, a su vez se encarga de tener un contador de refresco que permita que las dos etapas funcionen simultáneamente. Estas dos etapas corresponden a: la etapa "multiplexor" que es aquella que determina cuál dígito se mostrará en el display y la etapa "ánodo" que define cuál ánodo será encendido. La etapa "cátodos" sería la que se encarga de recibir el dígito que enciende alguno de los siete segmentos.
 
 # Diagramas de bloques
 [comment]: <> (de cada subsistema y su funcionamiento fundamental, según descritos en la sección 5.)

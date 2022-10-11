@@ -14,7 +14,8 @@ Este último subsistema está compuesto por cuatro partes. Requiere también hac
 
 # Diagramas de bloques
 ![\label{Implementación lógica del subsistema 1}](https://user-images.githubusercontent.com/111257726/195086713-428fa68d-39e8-4790-b95a-875f62756907.jpeg)
-El la figura anterior se muestra un diagrama lógico que describe al subsistema 1. Este se basa en tomar el MSB del código binario como el MSB del código de gray 
+El la figura anterior se muestra un diagrama lógico que describe al subsistema 1. Este se basa en tomar el MSB del código binario como el MSB del código de gray
+
 [comment]: <> (de cada subsistema y su funcionamiento fundamental, según descritos en la sección 5.)
 # Diagramas de estado
 [comment]: <> (de todas las FSM diseñadas, si existen, según descritos en la sección 5)

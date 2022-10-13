@@ -33,6 +33,11 @@ En la figura anterior se muestra un diagrama lógico que describe al subsistema 
 [comment]: <> (del sistema completo, desde el estímulo de entrada hasta el manejo de los 7 segmentos.)
 # Análisis de consumo de recursos en la FPGA 
 [comment]: <> (LUTs, FFs, etc. y del consumo de potencia que reporta la herramienta Vivado.)
+
+
+![power](https://user-images.githubusercontent.com/111306099/195584545-877af257-13df-469f-8acf-07df53a0b796.PNG)
+
+
 # Reporte de velocidades máximas de reloj 
 [comment]: <> (posibles en el diseño mínima frecuencia de reloj para este diseño: 50 MHz.)
 # Análisis de principales problemas 

@@ -14,7 +14,15 @@ Este último subsistema está compuesto por cuatro partes. Requiere también hac
 
 # Diagramas de bloques
 ![Implementación lógica del subsistema 1](https://user-images.githubusercontent.com/111257726/195086713-428fa68d-39e8-4790-b95a-875f62756907.jpeg)
-El la figura anterior se muestra un diagrama lógico que describe al subsistema 1. 
+En la figura anterior se muestra un diagrama lógico que describe al subsistema 1. 
+
+![Diagrama sin título drawio](https://user-images.githubusercontent.com/111306099/195543623-0bf2af3c-5c22-441b-8ef2-2876281c45f6.png)
+En la figura anterior se muestra un diagrama lógico que describe al subsistema 2. 
+
+![photo_5060016296040704608_y](https://user-images.githubusercontent.com/111306099/195543709-bf73c428-4b8c-4a5e-a71e-58c394abf8fe.jpg)
+En la figura anterior se muestra un diagrama lógico que describe al subsistema 3. 
+
+
 
 [comment]: <> (de cada subsistema y su funcionamiento fundamental, según descritos en la sección 5.)
 # Diagramas de estado
